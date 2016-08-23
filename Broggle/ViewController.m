@@ -11,22 +11,16 @@
 
 @interface ViewController ()
 @property (strong, nonatomic) BroggleBoard* gameBoard;
+@property (strong, nonatomic) IBOutlet UILabel *mainLabel;
 
 @end
 
 @implementation ViewController
 
--(instancetype)init {
-    self = [super init];
-    if (self != nil) {
-        _gameBoard = [[BroggleBoard alloc] init];
-    }
-    return self;
-}
-
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    _gameBoard = [[BroggleBoard alloc] init];
+    _mainLabel.text = [_gameBoard label];
 }
 
 - (void)didReceiveMemoryWarning {
