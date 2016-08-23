@@ -7,16 +7,26 @@
 //
 
 #import "ViewController.h"
+#import "BroggleBoard.h"
 
 @interface ViewController ()
+@property (strong, nonatomic) BroggleBoard* gameBoard;
 
 @end
 
 @implementation ViewController
 
+-(instancetype)init {
+    self = [super init];
+    if (self != nil) {
+        _gameBoard = [[BroggleBoard alloc] init];
+    }
+    return self;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
 }
 
 - (void)didReceiveMemoryWarning {

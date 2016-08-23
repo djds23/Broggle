@@ -15,6 +15,17 @@
 		7B6C20BD1D6A05BD0097B6C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B6C20BB1D6A05BD0097B6C5 /* LaunchScreen.storyboard */; };
 		7B6C20C81D6A05BD0097B6C5 /* BroggleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6C20C71D6A05BD0097B6C5 /* BroggleTests.m */; };
 		7B6C20D31D6A05BD0097B6C5 /* BroggleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6C20D21D6A05BD0097B6C5 /* BroggleUITests.m */; };
+		7B6C20E21D6A05FB0097B6C5 /* BroggleGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6C20E11D6A05FB0097B6C5 /* BroggleGame.m */; };
+		7B6C20E31D6A05FB0097B6C5 /* BroggleGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6C20E11D6A05FB0097B6C5 /* BroggleGame.m */; };
+		7B6C20E41D6A05FB0097B6C5 /* BroggleGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6C20E11D6A05FB0097B6C5 /* BroggleGame.m */; };
+		7B6C20E71D6A061E0097B6C5 /* BroggleBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6C20E61D6A061E0097B6C5 /* BroggleBoard.m */; };
+		7B6C20E81D6A061E0097B6C5 /* BroggleBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6C20E61D6A061E0097B6C5 /* BroggleBoard.m */; };
+		7B6C20E91D6A061E0097B6C5 /* BroggleBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6C20E61D6A061E0097B6C5 /* BroggleBoard.m */; };
+		7B6C20EC1D6A065E0097B6C5 /* BroggleLetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6C20EB1D6A065E0097B6C5 /* BroggleLetter.m */; };
+		7B6C20ED1D6A065E0097B6C5 /* BroggleLetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6C20EB1D6A065E0097B6C5 /* BroggleLetter.m */; };
+		7B6C20EE1D6A065E0097B6C5 /* BroggleLetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6C20EB1D6A065E0097B6C5 /* BroggleLetter.m */; };
+		7B6C20F01D6A2BFA0097B6C5 /* BroggleLetterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6C20EF1D6A2BFA0097B6C5 /* BroggleLetterTests.m */; };
+		7B984E8F1D6BFDA900C63476 /* BroggleBoardTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B984E8E1D6BFDA900C63476 /* BroggleBoardTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +62,14 @@
 		7B6C20CE1D6A05BD0097B6C5 /* BroggleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BroggleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B6C20D21D6A05BD0097B6C5 /* BroggleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BroggleUITests.m; sourceTree = "<group>"; };
 		7B6C20D41D6A05BD0097B6C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B6C20E01D6A05FB0097B6C5 /* BroggleGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BroggleGame.h; sourceTree = "<group>"; };
+		7B6C20E11D6A05FB0097B6C5 /* BroggleGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BroggleGame.m; sourceTree = "<group>"; };
+		7B6C20E51D6A061E0097B6C5 /* BroggleBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BroggleBoard.h; sourceTree = "<group>"; };
+		7B6C20E61D6A061E0097B6C5 /* BroggleBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BroggleBoard.m; sourceTree = "<group>"; };
+		7B6C20EA1D6A065E0097B6C5 /* BroggleLetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BroggleLetter.h; sourceTree = "<group>"; };
+		7B6C20EB1D6A065E0097B6C5 /* BroggleLetter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BroggleLetter.m; sourceTree = "<group>"; };
+		7B6C20EF1D6A2BFA0097B6C5 /* BroggleLetterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BroggleLetterTests.m; sourceTree = "<group>"; };
+		7B984E8E1D6BFDA900C63476 /* BroggleBoardTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BroggleBoardTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,11 +124,17 @@
 				7B6C20B11D6A05BD0097B6C5 /* AppDelegate.m */,
 				7B6C20B31D6A05BD0097B6C5 /* ViewController.h */,
 				7B6C20B41D6A05BD0097B6C5 /* ViewController.m */,
+				7B6C20E51D6A061E0097B6C5 /* BroggleBoard.h */,
+				7B6C20E61D6A061E0097B6C5 /* BroggleBoard.m */,
+				7B6C20EA1D6A065E0097B6C5 /* BroggleLetter.h */,
+				7B6C20EB1D6A065E0097B6C5 /* BroggleLetter.m */,
 				7B6C20B61D6A05BD0097B6C5 /* Main.storyboard */,
 				7B6C20B91D6A05BD0097B6C5 /* Assets.xcassets */,
 				7B6C20BB1D6A05BD0097B6C5 /* LaunchScreen.storyboard */,
 				7B6C20BE1D6A05BD0097B6C5 /* Info.plist */,
 				7B6C20AD1D6A05BD0097B6C5 /* Supporting Files */,
+				7B6C20E01D6A05FB0097B6C5 /* BroggleGame.h */,
+				7B6C20E11D6A05FB0097B6C5 /* BroggleGame.m */,
 			);
 			path = Broggle;
 			sourceTree = "<group>";
@@ -127,6 +152,8 @@
 			children = (
 				7B6C20C71D6A05BD0097B6C5 /* BroggleTests.m */,
 				7B6C20C91D6A05BD0097B6C5 /* Info.plist */,
+				7B6C20EF1D6A2BFA0097B6C5 /* BroggleLetterTests.m */,
+				7B984E8E1D6BFDA900C63476 /* BroggleBoardTest.m */,
 			);
 			path = BroggleTests;
 			sourceTree = "<group>";
@@ -270,9 +297,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B6C20E21D6A05FB0097B6C5 /* BroggleGame.m in Sources */,
 				7B6C20B51D6A05BD0097B6C5 /* ViewController.m in Sources */,
 				7B6C20B21D6A05BD0097B6C5 /* AppDelegate.m in Sources */,
 				7B6C20AF1D6A05BD0097B6C5 /* main.m in Sources */,
+				7B6C20EC1D6A065E0097B6C5 /* BroggleLetter.m in Sources */,
+				7B6C20E71D6A061E0097B6C5 /* BroggleBoard.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +310,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B6C20ED1D6A065E0097B6C5 /* BroggleLetter.m in Sources */,
+				7B984E8F1D6BFDA900C63476 /* BroggleBoardTest.m in Sources */,
+				7B6C20E31D6A05FB0097B6C5 /* BroggleGame.m in Sources */,
 				7B6C20C81D6A05BD0097B6C5 /* BroggleTests.m in Sources */,
+				7B6C20F01D6A2BFA0097B6C5 /* BroggleLetterTests.m in Sources */,
+				7B6C20E81D6A061E0097B6C5 /* BroggleBoard.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +323,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B6C20EE1D6A065E0097B6C5 /* BroggleLetter.m in Sources */,
+				7B6C20E41D6A05FB0097B6C5 /* BroggleGame.m in Sources */,
 				7B6C20D31D6A05BD0097B6C5 /* BroggleUITests.m in Sources */,
+				7B6C20E91D6A061E0097B6C5 /* BroggleBoard.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +536,7 @@
 				7B6C20D91D6A05BD0097B6C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7B6C20DA1D6A05BD0097B6C5 /* Build configuration list for PBXNativeTarget "BroggleTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +545,7 @@
 				7B6C20DC1D6A05BD0097B6C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7B6C20DD1D6A05BD0097B6C5 /* Build configuration list for PBXNativeTarget "BroggleUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +554,7 @@
 				7B6C20DF1D6A05BD0097B6C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
