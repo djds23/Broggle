@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B44EE501D6FF43600383839 /* Letter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B44EE4F1D6FF43600383839 /* Letter.m */; };
+		7B44EE511D6FF43600383839 /* Letter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B44EE4F1D6FF43600383839 /* Letter.m */; };
+		7B44EE521D6FF43600383839 /* Letter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B44EE4F1D6FF43600383839 /* Letter.m */; };
+		7B44EE541D6FF45C00383839 /* Letter.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B44EE531D6FF45C00383839 /* Letter.xib */; };
+		7B44EE551D6FF45C00383839 /* Letter.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B44EE531D6FF45C00383839 /* Letter.xib */; };
+		7B44EE561D6FF45C00383839 /* Letter.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B44EE531D6FF45C00383839 /* Letter.xib */; };
 		7B6C20AF1D6A05BD0097B6C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6C20AE1D6A05BD0097B6C5 /* main.m */; };
 		7B6C20B21D6A05BD0097B6C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6C20B11D6A05BD0097B6C5 /* AppDelegate.m */; };
 		7B6C20B51D6A05BD0097B6C5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6C20B41D6A05BD0097B6C5 /* ViewController.m */; };
@@ -46,6 +52,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7B44EE4E1D6FF43600383839 /* Letter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Letter.h; path = ../Letter.h; sourceTree = "<group>"; };
+		7B44EE4F1D6FF43600383839 /* Letter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Letter.m; path = ../Letter.m; sourceTree = "<group>"; };
+		7B44EE531D6FF45C00383839 /* Letter.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Letter.xib; path = ../Letter.xib; sourceTree = "<group>"; };
 		7B6C20AA1D6A05BD0097B6C5 /* Broggle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Broggle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B6C20AE1D6A05BD0097B6C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7B6C20B01D6A05BD0097B6C5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -97,6 +106,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B44EE491D6FF37500383839 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7B6C20E51D6A061E0097B6C5 /* BroggleBoard.h */,
+				7B6C20E61D6A061E0097B6C5 /* BroggleBoard.m */,
+				7B6C20EA1D6A065E0097B6C5 /* BroggleLetter.h */,
+				7B6C20EB1D6A065E0097B6C5 /* BroggleLetter.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		7B44EE571D6FF7F200383839 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7B44EE531D6FF45C00383839 /* Letter.xib */,
+				7B44EE4E1D6FF43600383839 /* Letter.h */,
+				7B44EE4F1D6FF43600383839 /* Letter.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		7B6C20A11D6A05BD0097B6C5 = {
 			isa = PBXGroup;
 			children = (
@@ -124,10 +154,8 @@
 				7B6C20B11D6A05BD0097B6C5 /* AppDelegate.m */,
 				7B6C20B31D6A05BD0097B6C5 /* ViewController.h */,
 				7B6C20B41D6A05BD0097B6C5 /* ViewController.m */,
-				7B6C20E51D6A061E0097B6C5 /* BroggleBoard.h */,
-				7B6C20E61D6A061E0097B6C5 /* BroggleBoard.m */,
-				7B6C20EA1D6A065E0097B6C5 /* BroggleLetter.h */,
-				7B6C20EB1D6A065E0097B6C5 /* BroggleLetter.m */,
+				7B44EE571D6FF7F200383839 /* Views */,
+				7B44EE491D6FF37500383839 /* Models */,
 				7B6C20B61D6A05BD0097B6C5 /* Main.storyboard */,
 				7B6C20B91D6A05BD0097B6C5 /* Assets.xcassets */,
 				7B6C20BB1D6A05BD0097B6C5 /* LaunchScreen.storyboard */,
@@ -273,6 +301,7 @@
 				7B6C20BD1D6A05BD0097B6C5 /* LaunchScreen.storyboard in Resources */,
 				7B6C20BA1D6A05BD0097B6C5 /* Assets.xcassets in Resources */,
 				7B6C20B81D6A05BD0097B6C5 /* Main.storyboard in Resources */,
+				7B44EE541D6FF45C00383839 /* Letter.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +309,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B44EE551D6FF45C00383839 /* Letter.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +317,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B44EE561D6FF45C00383839 /* Letter.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +331,7 @@
 				7B6C20E21D6A05FB0097B6C5 /* BroggleGame.m in Sources */,
 				7B6C20B51D6A05BD0097B6C5 /* ViewController.m in Sources */,
 				7B6C20B21D6A05BD0097B6C5 /* AppDelegate.m in Sources */,
+				7B44EE501D6FF43600383839 /* Letter.m in Sources */,
 				7B6C20AF1D6A05BD0097B6C5 /* main.m in Sources */,
 				7B6C20EC1D6A065E0097B6C5 /* BroggleLetter.m in Sources */,
 				7B6C20E71D6A061E0097B6C5 /* BroggleBoard.m in Sources */,
@@ -313,6 +345,7 @@
 				7B6C20ED1D6A065E0097B6C5 /* BroggleLetter.m in Sources */,
 				7B984E8F1D6BFDA900C63476 /* BroggleBoardTest.m in Sources */,
 				7B6C20E31D6A05FB0097B6C5 /* BroggleGame.m in Sources */,
+				7B44EE511D6FF43600383839 /* Letter.m in Sources */,
 				7B6C20C81D6A05BD0097B6C5 /* BroggleTests.m in Sources */,
 				7B6C20F01D6A2BFA0097B6C5 /* BroggleLetterTests.m in Sources */,
 				7B6C20E81D6A061E0097B6C5 /* BroggleBoard.m in Sources */,
@@ -327,6 +360,7 @@
 				7B6C20E41D6A05FB0097B6C5 /* BroggleGame.m in Sources */,
 				7B6C20D31D6A05BD0097B6C5 /* BroggleUITests.m in Sources */,
 				7B6C20E91D6A061E0097B6C5 /* BroggleBoard.m in Sources */,
+				7B44EE521D6FF43600383839 /* Letter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,10 +8,11 @@
 
 #import "ViewController.h"
 #import "BroggleBoard.h"
+#import "Letter.h"
 
 @interface ViewController ()
 @property (strong, nonatomic) BroggleBoard* gameBoard;
-@property (strong, nonatomic) IBOutlet UILabel *mainLabel;
+@property (strong, nonatomic) IBOutlet Letter *LetterContainer;
 
 @end
 
@@ -20,7 +21,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     _gameBoard = [[BroggleBoard alloc] init];
-    _mainLabel.text = [_gameBoard label];
+     Letter *letterView = [[[NSBundle mainBundle] loadNibNamed:@"Letter" owner:self options:nil] firstObject];
+    _LetterContainer = letterView;
 }
 
 - (void)didReceiveMemoryWarning {

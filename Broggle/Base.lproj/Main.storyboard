@@ -17,21 +17,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zM5-HT-ac6">
-                                <rect key="frame" x="279" y="289" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="S67-qY-19B" customClass="Letter">
+                                <rect key="frame" x="180" y="236" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="zM5-HT-ac6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="50q-ld-BIs"/>
-                            <constraint firstItem="zM5-HT-ac6" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="m9r-w5-i3n"/>
+                            <constraint firstItem="S67-qY-19B" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Djs-58-b1t"/>
+                            <constraint firstItem="S67-qY-19B" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="r3V-kF-MZw"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="mainLabel" destination="zM5-HT-ac6" id="EkE-kM-qZq"/>
+                        <outlet property="LetterContainer" destination="S67-qY-19B" id="Pfi-uI-ciQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
